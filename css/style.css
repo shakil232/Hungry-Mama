@@ -1,0 +1,24 @@
+
+/* searchArea */
+#search-input{
+    font-size: 12px;
+    padding: 5px;
+}
+ /* displayMeals */
+#meals-container{
+     display: grid;
+    grid-template-columns: repeat( 4 ,1fr);
+}
+.item {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;   
+}
+.item img {
+ width: 200px;
+}
+.item-name{
+    background-color: WhiteSmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
